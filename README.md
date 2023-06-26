@@ -12,9 +12,9 @@
   - [x] Descrever a visão geral do software
   - [x] Papéis, quais são os usuários e o que cada usuário pode fazer
   - [x] Requisitos Funcionais
-- [ ] Fazer testes de caixa preta
-- [ ] Ter uma tela inicial de login
-- [ ] Usar o máximo de recursos compatíveis com o trabalho
+- [x] Fazer testes de caixa preta
+- [x] Ter uma tela inicial de login
+- [x] Usar o máximo de recursos compatíveis com o trabalho
 
 ### Tópicos:
 - Visão Geral
@@ -39,11 +39,12 @@ sua produtividade e alcancem seus objetivos com mais facilidade.
 | Usuário | Possui acesso a todas as funcionalidades do sistema podendo criar, gerenciar e acompanhar suas tarefas diárias de maneira intuitiva e simplificada.|
 
 ## 3. Requisitos Funcionais:
-1. O sistema deve permitir que o usuário realize o login por meio do seu usuário e senha.
+1. O sistema deve permitir que o usuário realize o login por meio do seu nome de usuário e senha.
 2. O sistema deve permitir ao usuário criar novas tarefas, fornecendo um título.
-3. O usuário deve ser capaz de gerenciar as tarefas já existentes (CRUD).
-4. O usuário deve ser capaz de deslogar da aplicação a qualquer momento.
-5. O sistema deve emitir um sinal sonoro que indique quando o usuário concluir uma atividade.
+4. O usuário deve ser capaz de excluir uma tarefa adicionada anteriormente.
+5. O usuário deve ser capaz de editar uma tarefa já cadastrada.
+6. O usuário deve ser capaz de visualizar apenas suas próprias tarefas.
+7. O usuário deve ser capaz de deslogar da aplicação a qualquer momento.
 
 ## 4. Requisitos Não-Funcionais:
 ### Acessibilidade:
@@ -55,7 +56,6 @@ sua produtividade e alcancem seus objetivos com mais facilidade.
 6. O sistema deve ser construído de modo que seja possível realizar no mínimo testes funcionais.
 ### Segurança:
 7. O sistema deve fornecer mecanismos de autenticação seguros para verificar a identidade do usuário e garantir que apenas usuários autenticados tenham acesso aos recursos.
-8. A senha do usuário deve ser armazenada como um hash criptografado e não pode ser revertida ao seu valor original.
 ### Usabilidade:
 9. O sistema deve ser intuitivo e de fácil compreensão para usuários sem experiência prévia.
 10. O sistema deve apresentar um design visualmente atrativo e harmonioso.
